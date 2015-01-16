@@ -81,7 +81,7 @@ public class Robot extends IterativeRobot {
 	 * This function is called once each time the robot enters tele-operated mode
 	 */
 	public void teleopInit(){
-		myCompressor.setClosedLoopControl(true);
+	//	myCompressor.setClosedLoopControl(true);
 		DoubleSolenoid1 = new DoubleSolenoid(0,1);
 	}
 
